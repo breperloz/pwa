@@ -1,0 +1,22 @@
+{
+  "short_name": "Jalisco",
+  "name": "Plataforma para fomentar el turismo en el estado de Jalisco",
+  "description": "Con esta página podrás encontrar los destinos turísticos más interesantes del estado de Jalisco",  
+  "background_color": "#0CC1A0",
+  "theme_color": "#04D69B",
+  "orientation": "portrait",
+  "start_url": "./",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "img/jalisco-icon192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "img/jalisco-icon144.png",
+      "sizes": "144x144",
+      "type": "image/png"
+    }
+  ]
+}

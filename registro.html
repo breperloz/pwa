@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Iniciar Sesión</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <link href="https://use.fontawesome.com/releases/v5.13.0/css/all.css" rel="stylesheet" id="fontawesome-css">
+    <link href="style.css" rel="stylesheet">
+    <link rel="manifest" href="manifest.json" />
+</head>
+<body>
+
+<div class="container">
+    <br>
+    <p class="text-center"></p>
+    <hr>
+<div class="card bg-light">
+    <article class="card-body mx-auto" style="max-width: 400px;">
+        <h4 class="card-title mt-3 text-center">Crea una cuenta</h4>
+        <p class="text-center">Inicia vinculando tu cuenta</p>
+        <p>
+            <a href="#" class="btn btn-block btn-twitter"> <i class="fab fa-twitter"></i>   Inicia vía Twitter</a>
+            <a href="#" class="btn btn-block btn-facebook"> <i class="fab fa-facebook-f"></i>   Inicia vía facebook</a>
+        </p>
+        <p class="divider-text text-center">
+            <span class="bg-light">O</span>
+        </p>
+        <p class="text-center">Crea una cuenta gratuita</p>
+        <form>
+        <div class="form-group input-group">
+            <div class="input-group-prepend">
+                <span class="input-group-text"> <i class="fa fa-user"></i> </span>
+             </div>
+            <input name="full-name" class="form-control" placeholder="Nombre Completo" type="text">
+        </div>
+        <div class="form-group input-group">
+            <div class="input-group-prepend">
+                <span class="input-group-text"> <i class="fa fa-envelope"></i> </span>
+             </div>
+            <input name="email-address" class="form-control" placeholder="Email" type="email">
+        </div>
+        <div class="form-group input-group">
+            <div class="input-group-prepend">
+                <span class="input-group-text"> <i class="fa fa-phone"></i> </span>
+            </div>
+            <select class="custom-select" style="max-width: 120px;">
+                <option selected="">222</option>
+                <option value="1">247</option>
+                <option value="2">248</option>
+                <option value="3">249</option>
+            </select>
+            <input name="phone-number" class="form-control" placeholder="XXX-XX-XX" type="text">
+        </div>
+        <div class="form-group input-group">
+            <div class="input-group-prepend">
+                <span class="input-group-text"> <i class="fa fa-building"></i> </span>
+            </div>
+            <select class="form-control">
+                <option selected=""> Seleccionar Área</option>
+                <option>Turismo</option>
+                <option>Administración</option>
+                <option>Sistemas</option>
+            </select>
+        </div>
+        <div class="form-group input-group">
+            <div class="input-group-prepend">
+                <span class="input-group-text"> <i class="fa fa-lock"></i> </span>
+            </div>
+            <input class="form-control" placeholder="Contraseña" type="password">
+        </div>
+        <div class="form-group input-group">
+            <div class="input-group-prepend">
+                <span class="input-group-text"> <i class="fa fa-lock"></i> </span>
+            </div>
+            <input class="form-control" placeholder="Repite Contraseña" type="password">
+        </div>                                      
+        <div class="form-group">
+            <button type="submit" class="btn btn-primary btn-block"> Create Account  </button>
+        </div>      
+        <p class="text-center">¿Ya tienes una cuenta? <a href="">Inicia Sesión</a> </p>                                                                 
+    </form>
+    </article>
+</div>
+</div> 
+<form action="" method="post" novalidate>
+    <fieldset>
+        <div class="field">
+            <label>
+                <span>Name</span>
+                <input data-validate-length-range="6" data-validate-words="2" name="name" placeholder="ex. John f. Kennedy" required="required" type="text" />
+            </label>
+            <div class='tooltip help'>
+                <span>?</span>
+                <div class='content'>
+                    <b></b>
+                    <p>Name must be at least 2 words</p>
+                </div>
+            </div>
+        </div>
+        <div class="field">
+            <label>
+                <span>email</span>
+                <input name="email" required="required" type="email" />
+            </label>
+        </div>
+</body>
+</html>
